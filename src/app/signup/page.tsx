@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 import React, { useState } from 'react';
 
 export default function SignupPage() {
@@ -80,6 +81,7 @@ export default function SignupPage() {
         >
           Sign Up
         </button>
+        <Link href='/login'>Already have an account?Login</Link>
       </div>
     </div>
   );
